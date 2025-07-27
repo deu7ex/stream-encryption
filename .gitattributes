@@ -1,0 +1,25 @@
+# Исключаем тесты, служебные и чувствительные файлы из git archive и packagist zip
+/tests/ export-ignore
+/encrypt.php export-ignore
+/decrypt.php export-ignore
+/.gitignore export-ignore
+/.gitattributes export-ignore
+/phpunit.xml export-ignore
+README.md export-ignore
+
+# Не включать ключи и зашифрованные данные
+/samples/*.key export-ignore
+/samples/*.encrypted export-ignore
+/samples/*.sidecar export-ignore
+
+# Указание языков
+*.php linguist-language=PHP
+
+# Бинарные файлы
+*.png binary
+*.jpg binary
+*.zip binary
+
+# Приведение переноса строк
+*.php text eol=lf
+*.md  text eol=lf

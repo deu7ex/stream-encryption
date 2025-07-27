@@ -1,0 +1,15 @@
+{
+  "name": "yourvendor/stream-encryption",
+  "type": "library",
+  "autoload": {
+    "psr-4": {
+      "StreamEncryption\\": "src/"
+    }
+  },
+  "require": {
+    "guzzlehttp/psr7": "^2.0"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^9.0"
+  }
+}
