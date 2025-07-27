@@ -14,7 +14,7 @@ This Composer package implements encryption and decryption of PSR-7 streams usin
 ## Installation
 
 ```bash
-composer require yourvendor/stream-encryption
+composer require deu7ex/stream-encryption
 ```
 
 ```bash
