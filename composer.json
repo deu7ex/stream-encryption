@@ -3,6 +3,8 @@
   "description": "PSR-7 stream encryption compatible with WhatsApp media format",
   "license": "MIT",
   "type": "library",
+  "minimum-stability": "dev",
+  "prefer-stable": true,
   "autoload": {
     "psr-4": {
       "StreamEncryption\\": "src/"
