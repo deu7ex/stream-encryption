@@ -1,5 +1,7 @@
 {
   "name": "deu7ex/stream-encryption",
+  "description": "PSR-7 stream encryption compatible with WhatsApp media format",
+  "license": "MIT",
   "type": "library",
   "autoload": {
     "psr-4": {
