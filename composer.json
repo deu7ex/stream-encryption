@@ -1,5 +1,5 @@
 {
-  "name": "yourvendor/stream-encryption",
+  "name": "deu7ex/stream-encryption",
   "type": "library",
   "autoload": {
     "psr-4": {
